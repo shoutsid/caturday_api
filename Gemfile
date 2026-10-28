@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.9'
+gem 'rails', '4.1.16'
 gem 'json'
 
 gem 'unicorn'
@@ -35,3 +35,4 @@ group :test, :development do
   gem 'factory_girl_rails', require: false # manually load in spec/support/factory_girl.rb. its for spring workaround.
 end
 gem "mimemagic", "= 0.3.9"
+gem "jquery-ui-rails", "~> 6.0"
