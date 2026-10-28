@@ -34,3 +34,4 @@ group :test, :development do
   #gem 'spring-commands-rspec'
   gem 'factory_girl_rails', require: false # manually load in spec/support/factory_girl.rb. its for spring workaround.
 end
+gem "mimemagic", "= 0.3.9"
