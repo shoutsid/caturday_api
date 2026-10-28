@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.16'
+gem 'rails', '4.2.11.3'
 gem 'json'
 
 gem 'unicorn'
@@ -36,3 +36,5 @@ group :test, :development do
 end
 gem "mimemagic", "= 0.3.9"
 gem "jquery-ui-rails", "~> 6.0"
+gem "loofah", "~> 2.0.3"
+gem "responders", "~> 2.0"
